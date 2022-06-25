@@ -1,0 +1,92 @@
+.flora * { color: inherit }
+::selection { background: #090909; color: silver }
+[class].sol { background: hotpink; color: #090909 }
+[class].hot { background: lightpink; color: #090909 }
+[class].luna { background: skyblue; color: #090909 }
+[class].jugo { background: peachpuff; color: indigo }
+[class].metal { background: thistle; color: #090909 }
+
+.mundo {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vmax + 2vmin);
+  line-height: 1.5;
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+}
+
+.capo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.muy {
+  font-style: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.spine {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amor {
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.trio {
+  list-style: none;
+}
+
+.quote {
+  box-sizing: border-box;
+  align-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-height: 100vmin;
+  min-width: 100vmax;
+  flex-basis: 50%;
+}
+
+.voz {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+@media (orientation: portrait) {
+  .direction {
+    transform: rotate(90deg);
+  }
+
+  .quote {
+    min-height: 100vmax;
+    min-width: 100vmin;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 30em) {
+  .squeeze {
+    line-height: 1;
+  }
+}
+
+s {
+  text-decoration-style: dotted;
+}
